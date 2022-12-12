@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba con HTML</title>
+</head>
+<body>
+    <nav>
+        <h1>En las siguientes listas podra ver los datos de mis familia</h1>
+    </nav>
+
+    <h2>Padre</h2>
+        <ul>
+            <li>Nombre = {{ familiar1.nombre }}</li>
+            <li>Edad = {{ familiar1.edad }}</li>
+            <li>Fecha de Nacimiento = {{ familiar1.nacimiento }}</li>
+            <li>Rol = {{ familiar1.rol }}</li>
+        </ul>
+
+
+    <h2>Madre</h2>
+        <ul>
+            <li>Nombre = {{ familiar2.nombre }}</li>
+            <li>Edad = {{ familiar2.edad }}</li>
+            <li>Fecha de Nacimiento = {{ familiar2.nacimiento }}</li>
+            <li>Rol = {{ familiar2.rol }}</li>
+        </ul>
+
+    <h2>Yo</h2>
+        <ul>
+            <li>Nombre = {{ familiar3.nombre }}</li>
+            <li>Edad = {{ familiar3.edad }}</li>
+            <li>Fecha de Nacimiento = {{ familiar3.nacimiento }}</li>
+            <li>Rol = {{ familiar3.rol }}</li>
+        </ul>
+
+    <h2>Hermano</h2>
+        <ul>
+            <li>Nombre = {{ familiar4.nombre }}</li>
+            <li>Edad = {{ familiar4.edad }}</li>
+            <li>Fecha de Nacimiento = {{ familiar4.nacimiento }}</li>
+            <li>Rol = {{ familiar4.rol }}</li>
+        </ul>
+
+    <h2>Hermano</h2>
+        <ul>
+            <li>Nombre = {{ familiar5.nombre }}</li>
+            <li>Edad = {{ familiar5.edad }}</li>
+            <li>Fecha de Nacimiento = {{ familiar5.nacimiento }}</li>
+            <li>Rol = {{ familiar5.rol }}</li>
+        </ul>
+
+        
+
+
+
+</body>
+</html>
